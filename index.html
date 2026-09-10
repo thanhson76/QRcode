@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tạo Mã QR Thanh Toán Ngân Hàng - VietQR</title>
+    <meta name="description" content="Ứng dụng tạo mã QR chuyển khoản ngân hàng nhanh VietQR Napas 247 chính xác, tải ảnh và in mã QR để bàn." />
+    <meta property="og:title" content="Tạo Mã QR Thanh Toán Ngân Hàng - VietQR" />
+    <meta property="og:description" content="Ứng dụng tạo mã QR chuyển khoản ngân hàng nhanh VietQR Napas 247 chính xác, tải ảnh và in mã QR để bàn." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      (function() {
+        try {
+          var originalFetch = window.fetch;
+          var currentFetch = originalFetch;
+          // Ensure window.fetch has both a getter and setter to prevent "Cannot set property fetch of #<Window> which has only a getter"
+          var desc = Object.getOwnPropertyDescriptor(window, 'fetch');
+          if (!desc || !desc.set) {
+            Object.defineProperty(window, 'fetch', {
+              configurable: true,
+              enumerable: true,
+              get: function() {
+                return currentFetch;
+              },
+              set: function(val) {
+                currentFetch = val;
+              }
+            });
+          }
+        } catch (e) {
+          // Ignore fallback errors
+        }
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-slate-50 text-slate-900 antialiased font-['Plus_Jakarta_Sans',sans-serif]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

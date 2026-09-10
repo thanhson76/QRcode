@@ -1,0 +1,6 @@
+{
+  "name": "Tạo Mã QR Thanh Toán Ngân Hàng",
+  "description": "Ứng dụng tạo mã QR chuyển khoản ngân hàng nhanh VietQR Napas 247 chính xác, tải ảnh và in mã QR để bàn.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
